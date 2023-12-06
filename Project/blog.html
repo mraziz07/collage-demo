@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edufort-trust our education-collage of south nivedia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Image/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" id="icon" onclick='showmenu()'></i>
+        </nav>
+        <H1 class="heading blog-heading">Our Certificate & Online Programms for 2023</H1>
+    </section>
+
+    <!-- -----------Blog section----------- -->
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="Image/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programms for 2023</h2>
+                <p style="padding-top: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam recusandae fuga quaerat velit ipsa,
+                    quidem tempore suscipit aut quia excepturi accusamus vel, mollitia doloremque esse delectus
+                    consectetur dicta laboriosam accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Mollitia eos enim sint. Soluta placeat inventore dignissimos. Iure officiis enim quia, expedita id
+                    repellat sint dolores necessitatibus, veniam repellendus sit voluptatum itaque minus iusto,
+                    quibusdam eveniet architecto. Eos nostrum magni recusandae? Sequi perspiciatis fuga assumenda?
+                    Veritatis distinctio neque necessitatibus?</p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel pariatur maxime quam similique fugit
+                    deleniti adipisci asperiores facere illum ipsa, cum itaque aut officiis repellendus molestiae
+                    praesentium sunt? Impedit aut recusandae consequuntur accusamus amet?</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto placeat autem libero saepe nihil
+                    quas ducimus reprehenderit quia vitae distinctio ipsa eveniet ut sit, quam atque, maxime ad
+                    quibusdam non possimus vel recusandae voluptates culpa! Harum eligendi hic explicabo ipsam quos fuga
+                    voluptatum esse doloremque.
+                <p><br>
+                <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odit mollitia facere, itaque nobis
+                    dignissimos molestias ex exercitationem accusantium veniam excepturi voluptatem nostrum placeat
+                    praesentium aliquid beatae culpa laboriosam similique! Ipsum est tempora odit consequuntur tenetur
+                    earum assumenda, aliquid debitis, sequi repellat alias beatae aut eveniet nobis soluta nulla!
+                    Tempora id expedita fugiat quasi voluptatibus saepe adipisci quisquam soluta tempore.</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Your Name">
+                            <input type="gmail" placeholder="Enter Your Gmail">
+                            <textarea rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn explore-but blog-but">Post Comment</button>
+                        </form>
+                    </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>POST CATEGORIES</h3>
+                <div>
+                    <span>Business Statistics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>09</span>
+                </div>
+                <div>
+                    <span>Business Studies</span>
+                    <span>39</span>
+                </div>
+                <div>
+                    <span>Javascript</span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>Cascadin Styling Sheet</span>
+                    <span>07</span>
+                </div>
+                <div>
+                    <span>Business Accounting</span>
+                    <span>40</span>
+                </div>
+                <div>
+                    <span>Phython</span>
+                    <span>18</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- -----------------footer--------------------- -->
+
+    <section class="footer footer-2">
+        <h1>About us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum at dolore enim inventore nisi, ptatem fuga
+            voluptates consequuntur.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Makw with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+    </section>
+
+
+    <!-- -----------javascript---------- -->
+
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.mediaquery.right = "0px";
+        }
+
+        function hidemenu() {
+            navlinks.mediaquery.right = "-220px";
+        }
+    </script>
+</body>
+
+</html>
