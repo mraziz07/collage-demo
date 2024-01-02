@@ -22,7 +22,7 @@
             <a href="index.html"><img src="Image/logo.png" alt=""></a>
 
             <div class="nav-links" id="navlinks">
-                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                    <i class="fa-solid fa-xmark" id="close-icon" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -31,7 +31,7 @@
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa-solid fa-bars" id="icon" onclick='showmenu()'></i>
+                <i class="fa-solid fa-bars" id="icon" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>Nivedia biggest University</h1>
@@ -160,17 +160,7 @@
 
     <!-- -----------javascript---------- -->
 
-    <script>
-
-        var navlinks = document.getElementById("navlinks");
-        function showmenu() {
-            navlinks.mediaquery.right = "0px";
-        }
-
-        function hidemenu() {
-            navlinks.mediaquery.right = "-220px";
-        }
-    </script>
+<script src="script.js"></script>
 </body>
 
 </html>
